@@ -19,7 +19,7 @@
     width: 350px;
     left: 100px;
     position: relative;
-    cursor: default;
+    
 }
 
 
@@ -209,7 +209,7 @@
             position: relative;
            
             top: 3px;
-            cursor: default;
+            
     }
     
 
@@ -275,7 +275,7 @@
         width: 300px;
         left: 100px;
         position: relative;
-        cursor: default;
+        
     }
 
 }
@@ -286,7 +286,7 @@
         left: 50px;
         top: 5px;
         position: relative;
-        cursor: default;
+        
     }
 
     .main{
@@ -312,7 +312,7 @@
         left: 50px;
         top: 5px;
         position: relative;
-        cursor: default;
+        
     }
 }
 
@@ -323,7 +323,7 @@
         left: 50px;
         top: 5px;
         position: relative;
-        cursor: default;
+        
     }
 
     .main{
@@ -343,7 +343,7 @@
         left: 25px;
         top: 5px;
         position: relative;
-        cursor: default;
+        
     }
 
     .main{
@@ -362,7 +362,7 @@
         left: 25px;
         top: 5px;
         position: relative;
-        cursor: default;
+        
     }
 
     .main{
@@ -380,7 +380,7 @@
         left: 10px;
         top: 5px;
         position: relative;
-        cursor: default;
+        
     }
 
     .main{
@@ -754,7 +754,6 @@
  
 
  .hero-heading h4{
-    cursor: default;
      font-family: 'Anybody', cursive;
      position: relative;
      padding-left: 16.1%;
@@ -772,6 +771,7 @@
  
  
  .btn-hero{
+    cursor: pointer;
      font-family: 'Manjari', sans-serif;
      font-size: 0.8vw;
      left: 16.3%;
@@ -782,7 +782,6 @@
      text-decoration: none;
      text-transform: uppercase;
      color: #fff;
-     cursor: pointer;
      border: 0.1vw solid #000;
      background: #B90A0A;
      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -913,7 +912,7 @@
 }
 
 .Main-Title h2{
-    cursor: default;
+    
     color: #000;
     font-family: 'Bruno Ace SC', cursive;
     font-style: normal;
@@ -1332,7 +1331,7 @@
 }
 
 .colin h3{
-    cursor: default;
+    
     position: relative;
     top: 10px;
     display: flex;
@@ -1799,7 +1798,7 @@
 
 
 .box-1 h3{
-    cursor: default;
+    
     color: #000;
     font-family: 'Jura', sans-serif;
     font-size: 17px;
@@ -1814,7 +1813,7 @@
 
 
 .box-1 h6 {
-    cursor: default;
+    
     color: #000;
     font-family: 'Catamaran', sans-serif;
     font-size: 14px;
@@ -1835,7 +1834,7 @@
 
 
 .box-2 h3{
-    cursor: default;
+    
     color: #000;
     font-family: 'Jura', sans-serif;
     font-size: 17px;
@@ -1849,7 +1848,7 @@
 }
 
 .box-2 h6{
-    cursor: default;
+    
     color: #000;
     font-family: 'Catamaran', sans-serif;
     font-size: 14px;
@@ -1872,7 +1871,7 @@
 
 
 .box-3 h3{
-    cursor: default;
+    
     color: #000;
     font-family: 'Jura', sans-serif;
     font-size: 17px;
@@ -1884,7 +1883,7 @@
 }
 
 .box-3 h6{
-    cursor: default;
+    
     color: #000;
     font-family: 'Catamaran', sans-serif;
     font-size: 14px;
@@ -1912,11 +1911,11 @@
     line-height: normal;
     padding-top: 15px;
     text-align: center;
-    cursor: default;
+    
 }
 
 .box-4 h6{
-    cursor: default;
+    
     color: #000;
     font-family: 'Catamaran', sans-serif;
     font-size: 14px;
@@ -3930,13 +3929,13 @@
     font-weight: 300;
     position: relative;
     padding-left: 20px;
-    cursor: default;
+    
     
     
 }
 
 .min-title h1{
-    cursor: default;
+    
     color: #000;
     font-family: 'Lexend Zetta', sans-serif;
     font-size: 1.9vw;
@@ -3976,7 +3975,7 @@
     font-weight: 400;
     display: flex;
     justify-content: center;
-    cursor: default;
+    
     
 
 }
@@ -3985,7 +3984,7 @@
 
 
 .box h4{
-    cursor: default;
+    
     color: #000;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-family: 'Bruno Ace', cursive;
@@ -3998,7 +3997,7 @@
 }
 
 .box h6{
-    cursor: default;
+    
     color: #000;
     text-align: center;
     font-family: 'KoHo', sans-serif;
@@ -5725,7 +5724,7 @@
 
 
 .Title-H4{
-    cursor: default;
+    
     display: flex;
     justify-content: center;
     font-family: 'Prompt', sans-serif;
@@ -6930,7 +6929,7 @@
 .CSDPCALL{
     display: flex;
     align-items: center;
-    cursor: default;
+    
 
     
 }

@@ -1510,6 +1510,7 @@ ul{
     letter-spacing: 0.8px;
     text-transform: capitalize;
     position: relative;
+
     
 }
 
@@ -1533,6 +1534,7 @@ ul{
     text-transform: capitalize;
     transition: all 0.3s ease;
     position: relative;
+    margin-top: 10px;
 
 }
 
