@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="login.css"/>
+</head>
+<body>
+    <header>
+
+        <!-- menu-1 -->
+  
+      <div class="container-menu">
+        <nav>
+            <ul class="nav-bar">
+                <li class="logo"><a href="#"><img src="assets/img/logo.png"/></a></li>
+                <input type="checkbox" id="check"/>
+                <span class="menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <div class="main">
+                  <a href="#" class="btn-SignIn">SignIn</a>
+                  <a href="#" class="Reg"><span>Register</span></a>
+                  <div class="bx bx-menu" id="menu-icon"></div>
+                </div>
+                <label for="check" class="open-menu"><i class="fa-solid fa-bars-staggered" style="color: #000000;"></i></label>
+            </ul>
+        </nav>
+      </div>
+        </header>
+    <section>
+        <div class="form-container">
+            <h1>login</h1>
+            <form action="#">
+                <div class="control">
+                    <label for="name">Contact No / Email Address</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="control">
+                    <label for="psw">password</label>
+                    <input type="password" name="psw" id="psw">
+                </div>
+                <span><input type="checkbox" id="Rme"> remember me. </span>
+                <div class="control">
+                    <input type="submit" value="Login" class="logbtn">
+                </div>
+            </form>
+            <div class="link">
+                <a href="#">Forgot password ?</a>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

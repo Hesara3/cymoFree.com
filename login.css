@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
+
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: -8px;
+    position: relative;
+    min-height: 120px;
+    padding: 0;
+    top: 0;
+    background-color: #ffffff;
+    box-shadow: 10px 1px 30px #acacac;
+    
+  
+}
+.logo img {
+    width: 350px;
+    left: 100px;
+    position: relative;
+    cursor: default;
+}
+
+
+.menu {
+    display: flex;
+}
+
+
+.menu li {
+    padding-left: 30px;
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Manjari', sans-serif;
+    color: #000;
+    font-size: 1vw;
+}
+
+
+.menu li a:hover{
+    color: #535353;
+    transition: 0.15s ease-in-out;
+}
+
+.menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #535353;
+    transition: 0.15s ease-in-out;
+}
+
+
+.main{
+    position: relative;
+    padding-right: 200px;
+
+}
+
+.Reg{
+    text-decoration: none;
+    
+
+}
+
+.main span{
+    padding: 9px 20px;
+    border: 2px solid#111;
+    text-transform: uppercase;
+    color: #111;
+    transition-duration: 0.3s;
+    text-decoration: none;
+    font-size: 1vw;
+    position: relative;
+    top: 1px;
+    
+}
+
+.main span:hover{
+    
+    border: 2px solid#b9b9b9;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 0.9vw;
+    text-decoration: none;
+    
+    
+}
+
+
+
+.Reg:hover{
+    color: #757575;
+    
+    
+    
+}
+
+.btn-SignIn{
+    padding: 9px 25px;
+    border: 2px solid#111;
+    text-transform: uppercase;
+    color: #111;
+    font-size: 1vw;
+    transition-duration: 0.3s;
+    text-decoration: none;
+    
+    
+}
+
+.btn-SignIn:hover{
+    
+    border: 2px solid#c92929;
+    background-color: #B90A0A;
+    color: #ffffff;
+    font-size: 0.9vw;
+    
+    
+}
+
+.btn-SignIn{
+    font-family: 'Manjari', sans-serif;
+    position: relative;
+  
+    
+  
+    cursor: pointer;
+}
+
+.menu li a:hover:after {
+    width: 100%;
+    color: #757575;
+}
+
+
+.open-menu , .close-menu {
+    position: absolute;
+    color: var(--color1);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+    transition: 0.5s ease;
+}
+
+
+
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    transition: 0.5s ease;
+}
+
+
+.close-menu {
+    top: 20px;
+    right: 20px;
+    transition: 0.5s ease;
+    
+}
+
+
+
+#check {
+    display: none;
+
+}
+
+.__desktop{
+    display: block;
+}
+.__desktop-inline{
+    display: inline-block;
+}
+.__mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 768px){
+    .__desktop{
+        display: none;
+    }
+    .__mobile{
+        display: block;
+    }
+    .__mobile-inline{
+        display: inline-block;
+    }
+}
+
+
+
+@media (max-width: 768px){
+
+    
+    .logo img{
+            max-width: 400px;
+            position: relative;
+           
+            top: 3px;
+            cursor: default;
+    }
+    
+
+    .nav-bar{
+        min-height: 80px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: #000000;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .menu li {
+        margin-top: 40px;
+    }
+
+
+    .menu li a {
+        padding: 10px;
+        font-size: 2vw;
+        color: #ffffff;
+    
+    }
+
+    .open-menu , .close-menu {
+        display: block;
+        transition: 0.5s ease;
+        
+    
+    }
+
+    .close-menu {
+        color: #ffffff;
+        transition: 0.5s ease;
+        
+    
+    }
+
+    #check:checked ~ .menu {
+        right: 0;
+        transition: 0.5s ease;
+    }
+}
+
+
+@media(max-width: 1490px){
+    .main{
+        padding-right: 100px
+
+
+    }
+
+    .logo img {
+        width: 300px;
+        left: 100px;
+        position: relative;
+        cursor: default;
+    }
+
+}
+
+@media(max-width: 1158px){
+    .logo img {
+        width: 290px;
+        left: 50px;
+        top: 5px;
+        position: relative;
+        cursor: default;
+    }
+
+    .main{
+        padding-right: 40px;
+
+    }
+
+    .menu li{
+        position: relative;
+        right: 40px;
+    }
+
+    
+
+
+    
+}
+
+
+@media(max-width: 1030px){
+    .logo img {
+        width: 250px;
+        left: 50px;
+        top: 5px;
+        position: relative;
+        cursor: default;
+    }
+}
+
+
+@media(max-width: 978px){
+    .logo img {
+        width: 250px;
+        left: 50px;
+        top: 5px;
+        position: relative;
+        cursor: default;
+    }
+
+    .main{
+        padding-right: 20px;
+
+    }
+
+   
+
+
+    
+}
+
+@media(max-width: 920px){
+    .logo img {
+        width: 220px;
+        left: 25px;
+        top: 5px;
+        position: relative;
+        cursor: default;
+    }
+
+    .main{
+        padding-right: 30px;
+
+    }
+
+    
+
+    
+}
+
+@media(max-width: 834px){
+    .logo img {
+        width: 220px;
+        left: 25px;
+        top: 5px;
+        position: relative;
+        cursor: default;
+    }
+
+    .main{
+        padding-right: 10px;
+
+    }
+
+}
+
+@media(max-width: 768px){
+    .main{
+        display: none;
+    }
+}
+
+@media(max-width: 790px){
+    .logo img {
+        width: 200px;
+        left: 10px;
+        top: 5px;
+        position: relative;
+        cursor: default;
+    }
+
+    .main{
+        padding-right: 10px;
+        
+
+    }
+
+    .menu li{
+        position: relative;
+        right: 40px;
+    }
+
+
+
+
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+
+
+
+section{
+    position: relative;
+    min-height: 100vh;
+    max-width: 100%;
+
+}
+
+
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #9b9b9b;
+}
+
+
+h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.control label{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.control #Rme{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.control input{
+    width: 100%;
+    display: block;
+    color: #000000;
+    outline: none;
+    margin: 3em 0;
+    padding:  10px;
+    font-family: 'Kufam', sans-serif;
+    
+}
+
+
+.control input:hover {
+    border-color: #B90A0A;
+  }
+
+
+.control input[type="submit"]{
+    background: #B90A0A;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: 7;
+    padding:  10px 10px;
+    transition: opacity .3s ease;
+    transition: all 0.5s ease;
+}
+
+.control input[type="submit"]:hover{
+    opacity: 1;
+}
+
+.link{
+    text-align: center;
+}
+
+
+.link a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+
+
+.link a:hover{
+    opacity: 1;
+}
+
+.logbtn{
+    font-family: 'Manjari', sans-serif;
+    font-size: 12px;
+    background: #B90A0A;
+    position: relative;
+    display: flex;
+    border: none;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba( 0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.logbtn:hover, .logbtn:focus, .logbtn:active{
+    transition: all 0.5s ease ;
+    box-shadow: 0 0 20px rgba(248, 72, 72, 0.8);
+
+}
+
+@media(max-width: 768px){
+    .form-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 70%;
+        padding: 50px 30px;
+        border-radius: 10px;
+        box-shadow: 7px 7px 60px #000;
+    }
+}
+
